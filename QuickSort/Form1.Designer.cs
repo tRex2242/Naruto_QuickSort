@@ -45,6 +45,7 @@ namespace QuickSort
             this.btnMixed = new System.Windows.Forms.Button();
             this.btnBinSearch = new System.Windows.Forms.Button();
             this.btnSort = new System.Windows.Forms.Button();
+            this.tbBinarySearch = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbArray4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbArray5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbArray2)).BeginInit();
@@ -55,28 +56,31 @@ namespace QuickSort
             // 
             // pbArray4
             // 
-            this.pbArray4.Image = global::QuickSort.Properties.Resources.m;
-            this.pbArray4.Location = new System.Drawing.Point(27, 370);
+            this.pbArray4.BackColor = System.Drawing.SystemColors.Control;
+            this.pbArray4.Image = ((System.Drawing.Image)(resources.GetObject("pbArray4.Image")));
+            this.pbArray4.Location = new System.Drawing.Point(27, 360);
             this.pbArray4.Name = "pbArray4";
             this.pbArray4.Size = new System.Drawing.Size(270, 270);
-            this.pbArray4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbArray4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbArray4.TabIndex = 0;
             this.pbArray4.TabStop = false;
             // 
             // pbArray5
             // 
-            this.pbArray5.Image = global::QuickSort.Properties.Resources.s;
-            this.pbArray5.Location = new System.Drawing.Point(511, 370);
+            this.pbArray5.BackColor = System.Drawing.SystemColors.Control;
+            this.pbArray5.Image = ((System.Drawing.Image)(resources.GetObject("pbArray5.Image")));
+            this.pbArray5.Location = new System.Drawing.Point(369, 360);
             this.pbArray5.Name = "pbArray5";
             this.pbArray5.Size = new System.Drawing.Size(270, 270);
-            this.pbArray5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbArray5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbArray5.TabIndex = 1;
             this.pbArray5.TabStop = false;
             // 
             // pbArray2
             // 
+            this.pbArray2.BackColor = System.Drawing.SystemColors.Control;
             this.pbArray2.Image = global::QuickSort.Properties.Resources.b;
-            this.pbArray2.Location = new System.Drawing.Point(511, 58);
+            this.pbArray2.Location = new System.Drawing.Point(369, 27);
             this.pbArray2.Name = "pbArray2";
             this.pbArray2.Size = new System.Drawing.Size(270, 270);
             this.pbArray2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -85,18 +89,20 @@ namespace QuickSort
             // 
             // pbArray3
             // 
-            this.pbArray3.Image = global::QuickSort.Properties.Resources.i;
-            this.pbArray3.Location = new System.Drawing.Point(954, 58);
+            this.pbArray3.BackColor = System.Drawing.SystemColors.Control;
+            this.pbArray3.Image = ((System.Drawing.Image)(resources.GetObject("pbArray3.Image")));
+            this.pbArray3.Location = new System.Drawing.Point(714, 27);
             this.pbArray3.Name = "pbArray3";
             this.pbArray3.Size = new System.Drawing.Size(270, 270);
-            this.pbArray3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbArray3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbArray3.TabIndex = 3;
             this.pbArray3.TabStop = false;
             // 
             // pbArray6
             // 
+            this.pbArray6.BackColor = System.Drawing.SystemColors.Control;
             this.pbArray6.Image = global::QuickSort.Properties.Resources.f;
-            this.pbArray6.Location = new System.Drawing.Point(937, 370);
+            this.pbArray6.Location = new System.Drawing.Point(714, 360);
             this.pbArray6.Name = "pbArray6";
             this.pbArray6.Size = new System.Drawing.Size(270, 270);
             this.pbArray6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -105,17 +111,18 @@ namespace QuickSort
             // 
             // pbArray1
             // 
+            this.pbArray1.BackColor = System.Drawing.SystemColors.Control;
             this.pbArray1.Image = ((System.Drawing.Image)(resources.GetObject("pbArray1.Image")));
-            this.pbArray1.Location = new System.Drawing.Point(27, 58);
+            this.pbArray1.Location = new System.Drawing.Point(27, 27);
             this.pbArray1.Name = "pbArray1";
             this.pbArray1.Size = new System.Drawing.Size(270, 270);
-            this.pbArray1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbArray1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbArray1.TabIndex = 5;
             this.pbArray1.TabStop = false;
             // 
             // tbArray1
             // 
-            this.tbArray1.Location = new System.Drawing.Point(149, 334);
+            this.tbArray1.Location = new System.Drawing.Point(111, 303);
             this.tbArray1.Name = "tbArray1";
             this.tbArray1.ReadOnly = true;
             this.tbArray1.Size = new System.Drawing.Size(100, 20);
@@ -125,7 +132,7 @@ namespace QuickSort
             // 
             // tbArray5
             // 
-            this.tbArray5.Location = new System.Drawing.Point(627, 663);
+            this.tbArray5.Location = new System.Drawing.Point(453, 636);
             this.tbArray5.Name = "tbArray5";
             this.tbArray5.ReadOnly = true;
             this.tbArray5.Size = new System.Drawing.Size(100, 20);
@@ -135,7 +142,7 @@ namespace QuickSort
             // 
             // tbArray6
             // 
-            this.tbArray6.Location = new System.Drawing.Point(1039, 663);
+            this.tbArray6.Location = new System.Drawing.Point(808, 636);
             this.tbArray6.Name = "tbArray6";
             this.tbArray6.ReadOnly = true;
             this.tbArray6.Size = new System.Drawing.Size(100, 20);
@@ -145,7 +152,7 @@ namespace QuickSort
             // 
             // tbArray4
             // 
-            this.tbArray4.Location = new System.Drawing.Point(149, 663);
+            this.tbArray4.Location = new System.Drawing.Point(111, 636);
             this.tbArray4.Name = "tbArray4";
             this.tbArray4.ReadOnly = true;
             this.tbArray4.Size = new System.Drawing.Size(100, 20);
@@ -155,7 +162,7 @@ namespace QuickSort
             // 
             // tbArray3
             // 
-            this.tbArray3.Location = new System.Drawing.Point(1039, 334);
+            this.tbArray3.Location = new System.Drawing.Point(808, 303);
             this.tbArray3.Name = "tbArray3";
             this.tbArray3.ReadOnly = true;
             this.tbArray3.Size = new System.Drawing.Size(100, 20);
@@ -165,7 +172,7 @@ namespace QuickSort
             // 
             // tbArray2
             // 
-            this.tbArray2.Location = new System.Drawing.Point(609, 334);
+            this.tbArray2.Location = new System.Drawing.Point(453, 303);
             this.tbArray2.Name = "tbArray2";
             this.tbArray2.ReadOnly = true;
             this.tbArray2.Size = new System.Drawing.Size(100, 20);
@@ -177,41 +184,53 @@ namespace QuickSort
             // 
             this.btnMixed.BackColor = System.Drawing.Color.Yellow;
             this.btnMixed.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnMixed.Location = new System.Drawing.Point(111, 707);
+            this.btnMixed.Location = new System.Drawing.Point(141, 686);
             this.btnMixed.Name = "btnMixed";
-            this.btnMixed.Size = new System.Drawing.Size(121, 68);
+            this.btnMixed.Size = new System.Drawing.Size(138, 68);
             this.btnMixed.TabIndex = 12;
             this.btnMixed.Text = "Mixed";
             this.btnMixed.UseVisualStyleBackColor = false;
+            this.btnMixed.Click += new System.EventHandler(this.btnMixed_Click);
             // 
             // btnBinSearch
             // 
             this.btnBinSearch.BackColor = System.Drawing.Color.Orange;
             this.btnBinSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnBinSearch.Location = new System.Drawing.Point(1000, 706);
+            this.btnBinSearch.Location = new System.Drawing.Point(493, 686);
             this.btnBinSearch.Name = "btnBinSearch";
             this.btnBinSearch.Size = new System.Drawing.Size(176, 69);
             this.btnBinSearch.TabIndex = 13;
             this.btnBinSearch.Text = "Binary Search!";
             this.btnBinSearch.UseVisualStyleBackColor = false;
+            this.btnBinSearch.Click += new System.EventHandler(this.btnBinSearch_Click);
             // 
             // btnSort
             // 
             this.btnSort.BackColor = System.Drawing.Color.Chartreuse;
             this.btnSort.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.btnSort.Location = new System.Drawing.Point(582, 705);
+            this.btnSort.Location = new System.Drawing.Point(317, 686);
             this.btnSort.Name = "btnSort";
             this.btnSort.Size = new System.Drawing.Size(135, 69);
             this.btnSort.TabIndex = 14;
             this.btnSort.Text = "Sort";
             this.btnSort.UseVisualStyleBackColor = false;
+            this.btnSort.Click += new System.EventHandler(this.btnSort_Click);
+            // 
+            // tbBinarySearch
+            // 
+            this.tbBinarySearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tbBinarySearch.Location = new System.Drawing.Point(764, 733);
+            this.tbBinarySearch.Name = "tbBinarySearch";
+            this.tbBinarySearch.Size = new System.Drawing.Size(153, 22);
+            this.tbBinarySearch.TabIndex = 15;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.RosyBrown;
-            this.ClientSize = new System.Drawing.Size(1261, 808);
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.ClientSize = new System.Drawing.Size(1045, 777);
+            this.Controls.Add(this.tbBinarySearch);
             this.Controls.Add(this.btnSort);
             this.Controls.Add(this.btnBinSearch);
             this.Controls.Add(this.btnMixed);
@@ -257,6 +276,7 @@ namespace QuickSort
         private System.Windows.Forms.Button btnMixed;
         private System.Windows.Forms.Button btnBinSearch;
         private System.Windows.Forms.Button btnSort;
+        private System.Windows.Forms.TextBox tbBinarySearch;
     }
 }
 

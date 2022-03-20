@@ -128,5 +128,14 @@ namespace QuickSort.Properties {
                 return ResourceManager.GetString("String", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на quick_sort_helper(list, start, pivot - 1).
+        /// </summary>
+        internal static string String1 {
+            get {
+                return ResourceManager.GetString("String1", resourceCulture);
+            }
+        }
     }
 }
